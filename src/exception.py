@@ -1,13 +1,14 @@
 
 import sys
-import logging
+from src.logger import logging
+
 import traceback
 import inspect
 
 def error_message_detail():
     exc_type, exc_value, exc_tb = sys.exc_info()
     file_name = exc_tb.tb_frame.f_code.co_filename
-    line_number = inspect.trace()[-1][2]
+    line_number = exc_tb.tb_lineno - 1  # Adjust line number to where the error occurs in the function
     error_message = f"Error occurred in Python script: {file_name}, line number: {line_number}, error message: {str(exc_value)}"
     return error_message
 
@@ -21,13 +22,3 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
     
-if __name__ == "__main__":
-    try:
-        a = 1 / 0
-    except:
-        
-
-        logging.info("my starting code")
-        raise CustomException
-
-
