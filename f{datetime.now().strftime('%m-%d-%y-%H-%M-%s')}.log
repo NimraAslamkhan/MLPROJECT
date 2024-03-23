@@ -1,1 +1,203 @@
 [2024-03-11 11:10:57,247]16 root-INFO-Main code is starting
+[2024-03-21 11:29:40,645]24 root-INFO-Enter the data ingestion component
+[2024-03-21 11:29:40,654]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 11:29:40,663]31 root-INFO-Train test split initiated
+[2024-03-21 11:29:40,673]36 root-INFO-Ingestion data is completed
+[2024-03-21 11:29:40,697]68 root-INFO-Read train and test data completed
+[2024-03-21 11:29:40,698]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 11:29:40,698]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 11:29:40,698]51 root-INFO-Categorical columns encoding
+[2024-03-21 11:29:40,700]91 root-ERROR-An error occurred: "[('writing_score', 'reading_score')] not found in axis"
+[2024-03-21 11:31:19,441]24 root-INFO-Enter the data ingestion component
+[2024-03-21 11:31:19,449]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 11:31:19,457]31 root-INFO-Train test split initiated
+[2024-03-21 11:31:19,466]36 root-INFO-Ingestion data is completed
+[2024-03-21 11:31:19,488]68 root-INFO-Read train and test data completed
+[2024-03-21 11:31:19,488]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 11:31:19,488]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 11:31:19,488]51 root-INFO-Categorical columns encoding
+[2024-03-21 11:31:19,489]91 root-ERROR-An error occurred: "[('writing_score', 'reading_score')] not found in axis"
+[2024-03-21 11:34:06,070]24 root-INFO-Enter the data ingestion component
+[2024-03-21 11:34:06,081]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 11:34:06,101]31 root-INFO-Train test split initiated
+[2024-03-21 11:34:06,112]36 root-INFO-Ingestion data is completed
+[2024-03-21 11:34:06,137]68 root-INFO-Read train and test data completed
+[2024-03-21 11:34:06,137]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 11:34:06,137]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 11:34:06,137]51 root-INFO-Categorical columns encoding
+[2024-03-21 11:34:06,138]91 root-ERROR-An error occurred: "[('writing_score', 'reading_score')] not found in axis"
+[2024-03-21 11:37:23,945]24 root-INFO-Enter the data ingestion component
+[2024-03-21 11:37:23,951]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 11:37:23,960]31 root-INFO-Train test split initiated
+[2024-03-21 11:37:23,970]36 root-INFO-Ingestion data is completed
+[2024-03-21 11:37:23,993]68 root-INFO-Read train and test data completed
+[2024-03-21 11:37:23,993]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 11:37:23,993]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 11:37:23,993]51 root-INFO-Categorical columns encoding
+[2024-03-21 11:37:23,994]91 root-ERROR-An error occurred: "[('writing_score', 'reading_score')] not found in axis"
+[2024-03-21 11:37:58,889]24 root-INFO-Enter the data ingestion component
+[2024-03-21 11:37:58,895]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 11:37:58,902]31 root-INFO-Train test split initiated
+[2024-03-21 11:37:58,913]36 root-INFO-Ingestion data is completed
+[2024-03-21 11:37:58,935]68 root-INFO-Read train and test data completed
+[2024-03-21 11:37:58,936]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 11:37:58,936]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 11:37:58,936]51 root-INFO-Categorical columns encoding
+[2024-03-21 11:37:58,936]91 root-ERROR-An error occurred: "[('writing_score', 'reading_score')] not found in axis"
+[2024-03-21 11:38:30,103]24 root-INFO-Enter the data ingestion component
+[2024-03-21 11:38:30,110]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 11:38:30,117]31 root-INFO-Train test split initiated
+[2024-03-21 11:38:30,129]36 root-INFO-Ingestion data is completed
+[2024-03-21 11:38:30,150]68 root-INFO-Read train and test data completed
+[2024-03-21 11:38:30,150]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 11:38:30,150]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 11:38:30,150]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:03:58,940]24 root-INFO-Enter the data ingestion component
+[2024-03-21 12:03:58,940]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:03:58,956]31 root-INFO-Train test split initiated
+[2024-03-21 12:03:58,956]36 root-INFO-Ingestion data is completed
+[2024-03-21 12:03:58,987]68 root-INFO-Read train and test data completed
+[2024-03-21 12:03:58,987]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:03:58,987]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:03:58,987]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:12:52,160]24 root-INFO-Enter the data ingestion component
+[2024-03-21 12:12:52,160]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:12:52,175]31 root-INFO-Train test split initiated
+[2024-03-21 12:12:52,175]36 root-INFO-Ingestion data is completed
+[2024-03-21 12:12:52,207]68 root-INFO-Read train and test data completed
+[2024-03-21 12:12:52,207]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:12:52,207]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:12:52,207]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:20:18,388]24 root-INFO-Enter the data ingestion component
+[2024-03-21 12:20:18,404]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:20:18,414]31 root-INFO-Train test split initiated
+[2024-03-21 12:20:18,422]36 root-INFO-Ingestion data is completed
+[2024-03-21 12:20:18,449]68 root-INFO-Read train and test data completed
+[2024-03-21 12:20:18,449]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:20:18,449]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:20:18,449]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:22:47,100]24 root-INFO-Enter the data ingestion component
+[2024-03-21 12:22:47,116]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:22:47,116]31 root-INFO-Train test split initiated
+[2024-03-21 12:22:47,131]36 root-INFO-Ingestion data is completed
+[2024-03-21 12:22:47,163]68 root-INFO-Read train and test data completed
+[2024-03-21 12:22:47,163]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:22:47,163]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:22:47,163]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:23:54,967]24 root-INFO-Enter the data ingestion component
+[2024-03-21 12:23:54,983]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:23:54,983]31 root-INFO-Train test split initiated
+[2024-03-21 12:23:54,998]36 root-INFO-Ingestion data is completed
+[2024-03-21 12:23:55,014]68 root-INFO-Read train and test data completed
+[2024-03-21 12:23:55,014]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:23:55,014]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:23:55,014]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:24:10,616]24 root-INFO-Enter the data ingestion component
+[2024-03-21 12:24:10,632]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:24:10,632]31 root-INFO-Train test split initiated
+[2024-03-21 12:24:10,647]36 root-INFO-Ingestion data is completed
+[2024-03-21 12:24:10,663]68 root-INFO-Read train and test data completed
+[2024-03-21 12:24:10,663]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:24:10,663]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:24:10,663]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:24:10,679]82 root-INFO-Applying preprocessing object on training dataframe and test dataframe
+[2024-03-21 12:29:24,106]24 root-INFO-Enter the data ingestion component
+[2024-03-21 12:29:24,121]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:29:24,121]31 root-INFO-Train test split initiated
+[2024-03-21 12:29:24,137]36 root-INFO-Ingestion data is completed
+[2024-03-21 12:29:24,168]68 root-INFO-Read train and test data completed
+[2024-03-21 12:29:24,168]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:29:24,168]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:29:24,168]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:29:24,168]82 root-INFO-Applying preprocessing object on training dataframe and test dataframe
+[2024-03-21 12:29:43,647]24 root-INFO-Enter the data ingestion component
+[2024-03-21 12:29:43,647]27 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:29:43,662]31 root-INFO-Train test split initiated
+[2024-03-21 12:29:43,662]36 root-INFO-Ingestion data is completed
+[2024-03-21 12:29:43,693]68 root-INFO-Read train and test data completed
+[2024-03-21 12:29:43,693]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:29:43,693]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:29:43,693]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:29:43,693]82 root-INFO-Applying preprocessing object on training dataframe and test dataframe
+[2024-03-21 12:39:39,644]25 root-INFO-Enter the data ingestion component
+[2024-03-21 12:39:39,660]28 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:39:39,660]32 root-INFO-Train test split initiated
+[2024-03-21 12:39:39,676]37 root-INFO-Ingestion data is completed
+[2024-03-21 12:39:39,707]68 root-INFO-Read train and test data completed
+[2024-03-21 12:39:39,707]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:39:39,707]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:39:39,707]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:39:39,707]82 root-INFO-Applying preprocessing object on training dataframe and test dataframe
+[2024-03-21 12:42:19,943]25 root-INFO-Enter the data ingestion component
+[2024-03-21 12:42:19,943]28 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:42:19,943]32 root-INFO-Train test split initiated
+[2024-03-21 12:42:19,959]37 root-INFO-Ingestion data is completed
+[2024-03-21 12:42:19,974]68 root-INFO-Read train and test data completed
+[2024-03-21 12:42:19,974]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:42:19,974]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:42:19,974]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:42:19,990]82 root-INFO-Applying preprocessing object on training dataframe and test dataframe
+[2024-03-21 12:43:47,171]25 root-INFO-Enter the data ingestion component
+[2024-03-21 12:43:47,171]28 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:43:47,171]32 root-INFO-Train test split initiated
+[2024-03-21 12:43:47,202]37 root-INFO-Ingestion data is completed
+[2024-03-21 12:43:47,218]68 root-INFO-Read train and test data completed
+[2024-03-21 12:43:47,218]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:43:47,218]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:43:47,218]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:43:47,233]82 root-INFO-Applying preprocessing object on training dataframe and test dataframe
+[2024-03-21 12:50:45,972]25 root-INFO-Enter the data ingestion component
+[2024-03-21 12:50:45,972]28 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:50:45,988]32 root-INFO-Train test split initiated
+[2024-03-21 12:50:45,988]37 root-INFO-Ingestion data is completed
+[2024-03-21 12:50:46,019]68 root-INFO-Read train and test data completed
+[2024-03-21 12:50:46,019]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:50:46,019]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:50:46,019]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:50:46,019]82 root-INFO-Applying preprocessing object on training dataframe and test dataframe
+[2024-03-21 12:52:21,622]25 root-INFO-Enter the data ingestion component
+[2024-03-21 12:52:21,622]28 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:52:21,622]32 root-INFO-Train test split initiated
+[2024-03-21 12:52:21,638]37 root-INFO-Ingestion data is completed
+[2024-03-21 12:52:21,669]68 root-INFO-Read train and test data completed
+[2024-03-21 12:52:21,669]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:52:21,669]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:52:21,669]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:52:21,669]82 root-INFO-Applying preprocessing object on training dataframe and test dataframe
+[2024-03-21 12:52:21,685]95 root-ERROR-Error occurred during data transformation: Cannot center sparse matrices: pass `with_mean=False` instead. See docstring for motivation and alternatives.
+[2024-03-21 12:58:22,971]25 root-INFO-Enter the data ingestion component
+[2024-03-21 12:58:22,971]28 root-INFO-Read the dataset as dataframe
+[2024-03-21 12:58:22,987]32 root-INFO-Train test split initiated
+[2024-03-21 12:58:22,987]37 root-INFO-Ingestion data is completed
+[2024-03-21 12:58:23,018]68 root-INFO-Read train and test data completed
+[2024-03-21 12:58:23,018]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 12:58:23,018]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 12:58:23,018]51 root-INFO-Categorical columns encoding
+[2024-03-21 12:58:23,018]82 root-INFO-Applying preprocessing object on training dataframe and test dataframe
+[2024-03-21 13:02:24,298]25 root-INFO-Enter the data ingestion component
+[2024-03-21 13:02:24,298]28 root-INFO-Read the dataset as dataframe
+[2024-03-21 13:02:24,298]32 root-INFO-Train test split initiated
+[2024-03-21 13:02:24,314]37 root-INFO-Ingestion data is completed
+[2024-03-21 13:02:24,345]68 root-INFO-Read train and test data completed
+[2024-03-21 13:02:24,345]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 13:02:24,345]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 13:02:24,345]51 root-INFO-Categorical columns encoding
+[2024-03-21 13:02:24,345]82 root-INFO-Applying preprocessing object on training dataframe and test dataframe
+[2024-03-21 13:09:13,768]25 root-INFO-Enter the data ingestion component
+[2024-03-21 13:09:13,784]28 root-INFO-Read the dataset as dataframe
+[2024-03-21 13:09:13,784]32 root-INFO-Train test split initiated
+[2024-03-21 13:09:13,799]37 root-INFO-Ingestion data is completed
+[2024-03-21 13:09:13,815]68 root-INFO-Read train and test data completed
+[2024-03-21 13:09:13,815]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 13:09:13,815]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 13:09:13,815]51 root-INFO-Categorical columns encoding
+[2024-03-21 13:09:13,831]82 root-INFO-Applying preprocessing object on training dataframe and test dataframe
+[2024-03-21 13:09:51,430]25 root-INFO-Enter the data ingestion component
+[2024-03-21 13:09:51,430]28 root-INFO-Read the dataset as dataframe
+[2024-03-21 13:09:51,446]32 root-INFO-Train test split initiated
+[2024-03-21 13:09:51,462]37 root-INFO-Ingestion data is completed
+[2024-03-21 13:09:51,477]68 root-INFO-Read train and test data completed
+[2024-03-21 13:09:51,477]69 root-INFO-Obtaining preprocessing object
+[2024-03-21 13:09:51,477]50 root-INFO-Numerical columns standard scaling completed
+[2024-03-21 13:09:51,477]51 root-INFO-Categorical columns encoding
+[2024-03-21 13:09:51,493]82 root-INFO-Applying preprocessing object on training dataframe and test dataframe

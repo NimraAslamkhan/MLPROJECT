@@ -3,18 +3,13 @@ import sys
 import logging
 import pandas as pd
 from sklearn.model_selection import train_test_split
-
-# Get the absolute path of the parent directory of your project
-project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-# Add the parent directory to Python's sys.path
-sys.path.append(project_dir)
-
-
+from data_transformation import DataTransformation  
+from exception import CustomException 
+ 
 
 logging.basicConfig(level=logging.INFO)
 
-class Dataingestionconfig:
+class DataIngestionConfig:
     def __init__(self, train_data_path=os.path.join("artifacts", "train.csv"),
                        test_data_path=os.path.join("artifacts", "test.csv"),
                        raw_data_path=os.path.join("artifacts", "data.csv")):
@@ -24,9 +19,9 @@ class Dataingestionconfig:
 
 class DataIngestion:
     def __init__(self):
-        self.ingestion_config = Dataingestionconfig()
+        self.ingestion_config = DataIngestionConfig()
 
-    def initiat_data_ingestion(self):
+    def initiate_data_ingestion(self):
         logging.info("Enter the data ingestion component")
         try:
             df = pd.read_csv(r"E:\githubprectiece\notebook\data\student csv.csv")
@@ -47,4 +42,8 @@ class DataIngestion:
 
 if __name__ == "__main__":
     obj = DataIngestion()
-    obj.initiat_data_ingestion()
+    train_data, test_data = obj.initiate_data_ingestion()
+
+    
+data_transformation = DataTransformation()
+data_transformation.initiate_data_transformation(train_data, test_data)

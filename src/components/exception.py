@@ -1,6 +1,6 @@
 
 import sys
-from src.logger import logging
+from logger import logging
 
 import traceback
 import inspect
