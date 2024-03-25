@@ -213,3 +213,168 @@
 [2024-03-25 10:24:51,966]114 root-INFO-Saved preprocessing object.
 [2024-03-25 10:24:51,975]32 root-INFO-Splitting training and test input data
 [2024-03-25 10:24:55,516]63 root-INFO-Best found model on both training and testing dataset
+[2024-03-25 10:46:38,957]35 root-INFO-Entered the data ingestion method or component
+[2024-03-25 10:46:38,973]38 root-INFO-Read the dataset as dataframe
+[2024-03-25 10:46:38,989]44 root-INFO-Train test split initiated
+[2024-03-25 10:46:39,004]51 root-INFO-Inmgestion of the data iss completed
+[2024-03-25 10:46:39,036]87 root-INFO-Read train and test data completed
+[2024-03-25 10:46:39,036]89 root-INFO-Obtaining preprocessing object
+[2024-03-25 10:46:39,036]63 root-INFO-Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2024-03-25 10:46:39,036]64 root-INFO-Numerical columns: ['writing_score', 'reading_score']
+[2024-03-25 10:46:39,036]102 root-INFO-Applying preprocessing object on training dataframe and testing dataframe.
+[2024-03-25 10:46:39,067]114 root-INFO-Saved preprocessing object.
+[2024-03-25 10:46:39,082]32 root-INFO-Splitting training and test input data
+[2024-03-25 10:46:42,322]63 root-INFO-Best found model on both training and testing dataset
+[2024-03-25 11:17:04,047]96 werkzeug-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.11:5000
+[2024-03-25 11:17:04,047]96 werkzeug-INFO-[33mPress CTRL+C to quit[0m
+[2024-03-25 11:25:12,783]96 werkzeug-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.11:5000
+[2024-03-25 11:25:12,783]96 werkzeug-INFO-[33mPress CTRL+C to quit[0m
+[2024-03-25 11:25:12,799]96 werkzeug-INFO- * Restarting with stat
+[2024-03-25 11:25:14,957]96 werkzeug-WARNING- * Debugger is active!
+[2024-03-25 11:25:14,957]96 werkzeug-INFO- * Debugger PIN: 928-124-835
+[2024-03-25 11:30:52,841]828 app-ERROR-Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\app.py", line 16, in index
+    return render_template('index.html')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[2024-03-25 11:30:52,846]96 werkzeug-INFO-192.168.10.11 - - [25/Mar/2024 11:30:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2024-03-25 11:30:52,921]96 werkzeug-INFO-192.168.10.11 - - [25/Mar/2024 11:30:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-03-25 11:32:06,944]828 app-ERROR-Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\app.py", line 16, in index
+    return render_template('index.html')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[2024-03-25 11:32:06,948]96 werkzeug-INFO-127.0.0.1 - - [25/Mar/2024 11:32:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2024-03-25 11:32:07,018]96 werkzeug-INFO-127.0.0.1 - - [25/Mar/2024 11:32:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-03-25 11:33:17,144]96 werkzeug-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.11:5000
+[2024-03-25 11:33:17,144]96 werkzeug-INFO-[33mPress CTRL+C to quit[0m
+[2024-03-25 11:33:17,144]96 werkzeug-INFO- * Restarting with stat
+[2024-03-25 11:33:19,567]96 werkzeug-WARNING- * Debugger is active!
+[2024-03-25 11:33:19,591]96 werkzeug-INFO- * Debugger PIN: 928-124-835
+[2024-03-25 11:33:41,437]828 app-ERROR-Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\app.py", line 16, in index
+    return render_template('index.html')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\githubprectiece\myenv\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[2024-03-25 11:33:41,442]96 werkzeug-INFO-192.168.10.11 - - [25/Mar/2024 11:33:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2024-03-25 11:45:12,166]96 werkzeug-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.11:5000
+[2024-03-25 11:45:12,166]96 werkzeug-INFO-[33mPress CTRL+C to quit[0m
+[2024-03-25 11:45:12,166]96 werkzeug-INFO- * Restarting with stat
+[2024-03-25 11:45:14,377]96 werkzeug-WARNING- * Debugger is active!
+[2024-03-25 11:45:14,393]96 werkzeug-INFO- * Debugger PIN: 928-124-835
+[2024-03-25 11:45:26,417]96 werkzeug-INFO-192.168.10.11 - - [25/Mar/2024 11:45:26] "GET / HTTP/1.1" 200 -
+[2024-03-25 11:48:54,745]96 werkzeug-INFO-192.168.10.11 - - [25/Mar/2024 11:48:54] "GET / HTTP/1.1" 200 -
+[2024-03-25 11:55:49,054]96 werkzeug-INFO-127.0.0.1 - - [25/Mar/2024 11:55:49] "GET / HTTP/1.1" 200 -
+[2024-03-25 11:56:08,756]96 werkzeug-INFO-127.0.0.1 - - [25/Mar/2024 11:56:08] "GET /predictdata HTTP/1.1" 200 -
+[2024-03-25 11:57:00,420]96 werkzeug-INFO-127.0.0.1 - - [25/Mar/2024 11:57:00] "[33mGET /GET%20/predictdata%20HTTP/1.1 HTTP/1.1[0m" 404 -

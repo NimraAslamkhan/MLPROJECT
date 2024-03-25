@@ -7,7 +7,7 @@ import dill
 import pickle
 from sklearn.metrics import r2_score
 from sklearn.model_selection import GridSearchCV
-from exception import CustomException
+from src.components.exception import CustomException
 from sklearn.metrics import mean_squared_error
 
 def save_object(file_path, obj):
@@ -25,7 +25,7 @@ def save_object(file_path, obj):
 
 from sklearn.metrics import mean_squared_error
 
-def evaluate_models(X_train, y_train, X_test, y_test, models):
+def evaluate_models(X_train, y_train, X_test, y_test, models, param):
     """
     Evaluate different machine learning models.
     
@@ -46,5 +46,15 @@ def evaluate_models(X_train, y_train, X_test, y_test, models):
         y_pred = model.predict(X_test)
         score = mean_squared_error(y_test, y_pred)
         model_scores[model_name] = score
+        
+        para=param[list(models.keys())[i]]
+
     
     return model_scores
+def load_object(file_path):
+    try:
+        with open(file_path, "rb") as file_obj:
+            return pickle.load(file_obj)
+
+    except Exception as e:
+        raise CustomException(e, sys)
