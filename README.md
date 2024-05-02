@@ -1,8 +1,8 @@
-### ml project
+### ML project
 
 
 this is  end to end NLP project with deployment using github action
-### objective approch
+### Objectives Approach
 
 The project addresses the challenge of condensing lengthy texts, such as articles, documents, or paragraphs, into concise summaries without losing the core message and key information. This involves identifying significant sentences or phrases from the original text and presenting them in a condensed form. The primary objective is to develop an efficient text summarization model that can accurately capture the essence of the input text and produce coherent summaries.
 
