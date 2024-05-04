@@ -1,13 +1,3 @@
-### ML project
-
-
-this is  end to end NLP project with deployment using github action
-### Objectives Approach
-
-The project addresses the challenge of condensing lengthy texts, such as articles, documents, or paragraphs, into concise summaries without losing the core message and key information. This involves identifying significant sentences or phrases from the original text and presenting them in a condensed form. The primary objective is to develop an efficient text summarization model that can accurately capture the essence of the input text and produce coherent summaries.
-
-###  Solution Approach
-Gather a diverse dataset for training the summarization model and tokenize the text into sentences or words. Train the selected model on the preprocessed dataset to learn the relationships between input text and summaries.Assess the performance of the trained model using evaluation metrics. Deploy the trained model as a web service with CI/CD Deployment on AWS
 
 ### Workflows
 1 Update config.yaml
